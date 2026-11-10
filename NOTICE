@@ -1,0 +1,66 @@
+NOTICE
+======
+
+This repository's own original content is licensed under the MIT License
+(see LICENSE). Author: black-mouse-sha.
+
+What this repository actually contributes
+-----------------------------------------
+Not new algorithms, but: a three-layer framing, a set of verified failure
+symptom tables, measured calibration data for one specific slider, and an
+honest account of what did NOT work. The upstream projects below provided
+the core methods; the measured numbers, the failure cases and the
+"跟到底验证到哪" sections are local work.
+
+Third-party method inspiration (not a copy of their source trees)
+-----------------------------------------------------------------
+When this project adapts methods from other MIT-licensed works, the
+corresponding Copyright notice and full MIT license text must be retained
+below. Do not paste content from repositories that use CC BY-NC-ND, have
+no LICENSE, or use AGPL.
+
+---
+Third-party — kangleyao/slider-captcha-lab
+https://github.com/kangleyao/slider-captcha-lab
+
+Contribution used here: the quadratic displacement model for AliyunCaptcha
+(`piece.left = A·m + B·m²`), the human-shaped trajectory generator, and the
+CDP injection approach. The coefficients published in this repository
+(A_CDP = 0.0769, B_CDP = 0.003552) were independently re-measured and
+reproduced on a different target page.
+
+License as published by the upstream project: see their repository.
+
+---
+Third-party — MetaCubeX/mihomo
+https://github.com/MetaCubeX/mihomo
+
+Contribution used here: documentation of `dialer-proxy` (proxy chaining) and
+`listeners` (multiple inbound ports bound to specific outbounds).
+
+License: MIT.
+
+---
+Third-party — sml2h3/ddddocr and the captcha-recognizer project
+https://github.com/sml2h3/ddddocr
+
+Contribution used here: gap detection via the pretrained `Slider` model
+(`from captcha_recognizer.slider import Slider`).
+
+License: MIT.
+
+---
+Third-party — Playwright (Microsoft)
+https://github.com/microsoft/playwright
+
+Contribution used here: browser automation primitives (`page.mouse.move`,
+`addInitScript`, response listeners).
+
+License: Apache-2.0.
+
+---
+
+Trademarks, product names and service names mentioned in the skill texts
+(BitBrowser, Clash Verge Rev, Aliyun, Cloudflare, Chrome, Edge, Verge, etc.)
+belong to their respective owners. Mention is descriptive only; no
+affiliation or endorsement is implied.

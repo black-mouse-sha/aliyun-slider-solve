@@ -1,0 +1,17 @@
+{
+  "name": "antidetect-proxy-stack",
+  "version": "0.1.0",
+  "description": "Identity layering for multi-account work. 一台电脑跑多个账号的身份分层与代理接入技能包。",
+  "author": {
+    "name": "black-mouse-sha"
+  },
+  "license": "MIT",
+  "keywords": [
+    "antidetect",
+    "proxy",
+    "fingerprint",
+    "clash",
+    "captcha",
+    "skills"
+  ]
+}
