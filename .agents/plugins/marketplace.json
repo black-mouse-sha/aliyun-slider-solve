@@ -1,8 +1,8 @@
 {
-  "name": "antidetect-proxy-stack",
+  "name": "aliyun-slider-solve",
   "plugins": [
     {
-      "name": "antidetect-proxy-stack",
+      "name": "aliyun-slider-solve",
       "source": {
         "source": "local",
         "path": "./"
@@ -12,7 +12,7 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Developer",
-      "description": "Identity layering for multi-account work. 一台电脑跑多个账号的身份分层与代理接入技能包。"
+      "description": "Aliyun slider captcha - mechanism and solver. 阿里云滑块验证码的机制拆解与自动化求解。"
     }
   ]
 }
